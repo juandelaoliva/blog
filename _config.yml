@@ -10,7 +10,7 @@ search: true
 
 # SEO Enhancements
 url: "https://juandelaoliva.github.io/blog"
-baseurl: "" # Leave empty for root deployment
+baseurl: "/blog" # Leave empty for root deployment
 lang: "en"
 google_analytics: G-21EDP0MN6W
 sitemap:
