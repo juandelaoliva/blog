@@ -56,9 +56,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+
+  name   : "Juan de la Oliva"
+  avatar : "https://juandelaoliva.com/images/juandelaoliva-juan_de_la_oliva.webp"
+  bio    : "Experienced Solutions Architect specializing in Drupal, AI, and web development."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
