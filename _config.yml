@@ -3,13 +3,13 @@ title: "Juan de la Oliva | Solutions Architect Blog"
 email: "juandelaoliva1@gmail.com"
 description: >-
   Insights on technology, Drupal, AI, and more from Juan de la Oliva, a professional Solutions Architect based in Frankfurt.
-twitter_username: juandelaoliva
+twitter_username: username
 github_username: juandelaoliva
 minimal_mistakes_skin: default
 search: true
 
 # SEO Enhancements
-url: "https://juandelaoliva.com"
+url: "https://juandelaoliva.github.io/blog"
 baseurl: "" # Leave empty for root deployment
 lang: "en"
 google_analytics: G-21EDP0MN6W
