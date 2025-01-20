@@ -51,7 +51,7 @@ plugins:
 # Author information
 author:
   name   : "Juan de la Oliva"
-  avatar : "/images/juandelaoliva-juan_de_la_oliva.jpg"
+  avatar : "https://juandelaoliva.com/images/juandelaoliva-juan_de_la_oliva.webp"
   bio    : "Experienced Solutions Architect specializing in Drupal, AI, and web development."
   links:
     - label: "Website"
