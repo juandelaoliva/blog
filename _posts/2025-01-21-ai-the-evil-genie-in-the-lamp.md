@@ -8,7 +8,7 @@ excerpt: "Using AI feels like asking an evil genie for a wish—if you're not pr
 header: 
   teaser: /assets/images/ai-genie.jpg
 ---
-![AI Evil Genie](/blog/assets/images/ai-genie.jpg)
+![AI Evil Genie](/assets/images/ai-genie.jpg)
 
 Managing SEO for a multimarket site is never easy—especially when dealing with over 30 markets, each with its own quirks. Recently, my team faced a sitemap issue in our Drupal setup that led to several problems, particularly in multilingual markets:
 
