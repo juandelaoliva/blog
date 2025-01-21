@@ -6,7 +6,7 @@ tags: [AI, automation, SEO, Drupal, XML, sitemap]
 excerpt: "Using AI feels like asking an evil genie for a wish—if you're not precise, you might not get what you actually need...
 "
 header: 
-  teaser: /blog/assets/images/ai-genie.jpg
+  teaser: /assets/images/ai-genie.jpg
 ---
 ![AI Evil Genie](/blog/assets/images/ai-genie.jpg)
 
