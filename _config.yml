@@ -9,7 +9,7 @@ minimal_mistakes_skin: default
 search: true
 
 # SEO Enhancements
-url: "https://blog.juandelaoliva.com/"
+url: "https://blog.juandelaoliva.com"
 baseurl: "" # Leave empty for root deployment
 lang: "en"
 google_analytics: G-21EDP0MN6W
