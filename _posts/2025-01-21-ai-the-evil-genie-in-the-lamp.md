@@ -10,21 +10,21 @@ header:
 ---
 ![AI Evil Genie](/assets/images/ai-genie.jpg)
 
-Managing SEO for a multimarket site is never easy—especially when dealing with over 30 markets, each with its own quirks. Recently, my team faced a sitemap issue in our Drupal setup that led to several problems, particularly in multilingual markets:
+Managing SEO for a multimarket site is never easy, especially when dealing with over 30 markets, each with its own peculiarities. Recently, my team faced a sitemap issue in our Drupal setup that led to several problems, particularly in multilingual markets:
 
-- **Unsecured URLs:** Some links used `http` instead of `https`.  
-- **Incorrect domains:** URLs pointed to the host provider’s domain instead of the correct one.  
-- **Wrong language codes:** Sitemaps mixed up country codes, like using `/mx/` for Bolivia instead of `/bo/`.
+- **🔓 Unsecured URLs:** Some links used `http` instead of `https`.  
+- **🌐 Incorrect domains:** URLs pointed to the host provider’s domain instead of the correct one.  
+- **🇲🇽 Wrong language codes:** Sitemaps mixed up country codes, like using `/mx/` for Bolivia instead of `/bo/`.
 
-Once we thought the issue was fixed, the next step was testing. But with no QA resources available, the idea of manually checking all sitemaps—market by market—came up. My response? **Why do it manually when AI can help?**
+Once we thought the issue was fixed, the next step was testing. But with no QA resources available, the idea of manually checking all sitemaps—market by market—came up. My response? **Why do it manually when AI can help? 🤖**
 
-## AI: The Evil Genie in the Lamp  
+## AI: The Evil Genie in the Lamp  🧞‍♂️
 
-This is where things got interesting. I decided to turn to the AI to help me with the task, and it worked great. But working with AI often **feels like making a wish to an evil genie**. If you don't phrase your request *just right*, you'll get exactly what you asked for... but probably not what you actually *needed*.
+This is where things got interesting. I decided to to to ChatGPT to help me with the task, and it worked great. But working with AI often **feels like making a wish to an evil genie**. If you don't phrase your request *just right*, you'll get exactly what you asked for... but probably not what you actually *needed*.
 
-AI shines with precision. **The better you define your needs, the better the result**. If your request is missing details, the AI will fill in the gaps with its own logic and get unexpected or downright frustrating results.  
+AI shines with precision. **The better you define your needs, the better the result**. If your request is missing details, the AI will fill in the gaps with its own logic and get unexpected or quite frustrating results. 🤯  
 
-I found myself iterating again and again—refining prompts, adding specific conditions, and accounting for every edge case. But once I nailed it, the AI-driven solution analyzed sitemaps across multiple markets in minutes, pinpointing issues that would have taken hours to find manually.
+I found myself iterating again and again—refining prompts, adding specific conditions, and accounting for every edge case. But once I nailed it (a little less than 30m), the AI-driven solution analyzed sitemaps across multiple markets in minutes, pinpointing issues that would have taken hours to find manually. 🚀
 
 ---
 **📝 Tip:** I personally love using the voice recording (dictation) option in ChatGPT because I can quickly give a lot of context to the AI.
@@ -38,13 +38,14 @@ The real lesson here? Knowing how to **communicate effectively with AI** is an e
 So, the next time you’re facing a tedious task, take a step back and ask yourself: ***Am I asking the right questions?*** If not, AI might just grant your wish... with a few surprises you didn’t see coming.  
 
 ---
-## Cracking the Code with AI  
+## Cracking the Code with AI 💻
 
 The process involved using a simple yet effective approach:  
 1. Extracting and analyzing URLs from the sitemap.  
 2. Checking for protocol inconsistencies (`http` instead of `https`).  
 3. Verifying domain accuracy based on the market.  
 4. Ensuring correct language codes in URLs.  
+5. Checking how percentaje of URLS has a numeric path (detect errors on alias generation)
 
 Once I defined these checks clearly and structured my AI prompts correctly, I had a tool that could scan dozens of pages and produce results in no time. 
 
@@ -67,4 +68,4 @@ Here’s a **CodePen demo** where you can analyze sitemaps across multiple marke
 
 
 
-*Published on January 21, 2025*
+📅 *Published on January 21, 2025*
