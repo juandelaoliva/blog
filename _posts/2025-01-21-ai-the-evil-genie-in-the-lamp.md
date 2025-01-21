@@ -12,11 +12,11 @@ header:
 
 Managing SEO for a multimarket site is never easy, especially when dealing with over 30 markets, each with its own peculiarities. Recently, my team faced a sitemap issue in our Drupal setup that led to several problems, particularly in multilingual markets:
 
-- **🔓 Unsecured URLs:** Some links used `http` instead of `https`.  
-- **🌐 Incorrect domains:** URLs pointed to the host provider’s domain instead of the correct one.  
-- **🇲🇽 Wrong language codes:** Sitemaps mixed up country codes, like using `/mx/` for Bolivia instead of `/bo/`.
+- **Unsecured URLs:** Some links used `http` instead of `https`.  
+- **Incorrect domains:** URLs pointed to the host provider’s domain instead of the correct one.  
+- **Wrong language codes:** Sitemaps mixed up country codes, like using `/mx/` for Bolivia instead of `/bo/`.
 
-Once we thought the issue was fixed, the next step was testing. But with no QA resources available, the idea of manually checking all sitemaps—market by market—came up. My response? **Why do it manually when AI can help? 🤖**
+Once we thought the issue was fixed, the next step was testing. But with no QA resources available, the idea of manually checking all sitemaps—market by market—came up. My response? **Why do it manually when AI can help?**
 
 ## AI: The Evil Genie in the Lamp  🧞‍♂️
 
