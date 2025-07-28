@@ -1,0 +1,37 @@
+{% if site.posts.size > 1 %}
+  <div class="page__related">
+    {% if site.data.ui-text[site.locale].related_label %}
+      <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label }}</h2>
+    {% else %}
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+    {% endif %}
+    <div class="grid__wrapper">
+      {% for post in site.posts limit:4 %}
+        {% if post.id == page.id %}
+          {% continue %}
+        {% endif %}
+        {% if post.categories contains page.categories[0] %}
+          {% assign has_related = true %}
+          <div class="grid__item">
+            <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+              {% if post.header.teaser %}
+                <div class="archive__item-teaser">
+                  <img src="{{ post.header.teaser | prepend: site.baseurl }}" 
+                       alt="{% if post.header.alt %}{{ post.header.alt }}{% else %}{{ post.title }}{% endif %}"
+                       title="{% if post.header.alt %}{{ post.header.alt }}{% else %}{{ post.title }}{% endif %}">
+                </div>
+              {% endif %}
+              <h2 class="archive__item-title no_toc" itemprop="headline">
+                <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+              </h2>
+              {% if post.read_time %}
+                <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+              {% endif %}
+              {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | strip_newlines | truncate: 160 }}</p>{% endif %}
+            </article>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

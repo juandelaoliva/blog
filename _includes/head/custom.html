@@ -7,6 +7,70 @@
   
     gtag('config', 'G-21EDP0MN6W');
   </script>
+
+<!-- SEO Meta Tags -->
+<meta name="robots" content="index, follow">
+<meta name="author" content="Juan de la Oliva">
+<meta name="keywords" content="Drupal, AI, Solutions Architect, Technology, Web Development, Digital Strategy, Frankfurt">
+<link rel="canonical" href="{{ page.url | prepend: site.url }}">
+
+<!-- Open Graph Tags -->
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:image" content="{% if page.header.teaser %}{{ site.url }}{{ page.header.teaser }}{% else %}{{ site.url }}/assets/images/bio-photo.webp{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="en_US">
+
+<!-- Schema.org Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.layout == 'single' or page.layout == 'post' or page.categories %}Article{% else %}WebSite{% endif %}",
+  "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+  "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "image": "{% if page.header.teaser %}{{ site.url }}{{ page.header.teaser }}{% else %}{{ site.url }}/assets/images/bio-photo.webp{% endif %}",
+  {% if page.layout == 'single' or page.layout == 'post' or page.categories %}
+  "author": {
+    "@type": "Person",
+    "name": "Juan de la Oliva",
+    "url": "https://juandelaoliva.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Juan de la Oliva",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://juandelaoliva.com/images/juandelaoliva-juan_de_la_oliva.webp"
+    }
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  }
+  {% else %}
+  "name": "Juan de la Oliva | Solutions Architect Blog",
+  "description": "Insights on technology, Drupal, AI, and more from Juan de la Oliva, a professional Solutions Architect based in Frankfurt."
+  {% endif %}
+}
+</script>
+
+<!-- PWA Manifest -->
+<link rel="manifest" href="{{ '/manifest.json' | prepend: site.baseurl }}">
+
+<!-- Breadcrumb Schema -->
+{% include breadcrumb-schema.html %}
+
+<!-- FAQ Schema -->
+{% include faq-schema.html %}
+
+<!-- Organization Schema -->
+{% include organization-schema.html %}
+
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->

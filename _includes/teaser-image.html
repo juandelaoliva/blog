@@ -1,0 +1,7 @@
+{% if post.header.teaser %}
+  <div class="archive__item-teaser">
+    <img src="{{ post.header.teaser | prepend: site.baseurl }}" 
+         alt="{% if post.header.alt %}{{ post.header.alt }}{% else %}{{ post.title }}{% endif %}"
+         title="{% if post.header.alt %}{{ post.header.alt }}{% else %}{{ post.title }}{% endif %}">
+  </div>
+{% endif %}

@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://blog.juandelaoliva.com/sitemap.xml
+Sitemap: https://blog.juandelaoliva.com/sitemap-images.xml
+
+# Disallow admin and private areas
+Disallow: /_admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Allow important files
+Allow: /assets/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Crawl delay (optional)
+Crawl-delay: 1 

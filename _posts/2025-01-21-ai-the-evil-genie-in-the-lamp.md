@@ -1,14 +1,28 @@
 ---
-title: "Is AI the Evil Genie in the Lamp?"
+title: "Is AI the Evil Genie in the Lamp? - Lessons in AI Communication"
 date: 2025-01-21
-categories: [AI]
-tags: [AI, automation, SEO, Drupal, XML, sitemap]
-excerpt: "Using AI feels like asking an evil genie for a wish—if you're not precise, you might not get what you actually need...
-"
+last_modified_at: 2025-01-21
+categories: [AI, Technology, Drupal]
+tags: [AI, automation, SEO, Drupal, XML, sitemap, ChatGPT, productivity, web development]
+excerpt: "Using AI feels like asking an evil genie for a wish—if you're not precise, you might not get what you actually need. Learn how to communicate effectively with AI for better results."
 header: 
-  teaser: /assets/images/ai-genie.jpg
+  teaser: /assets/images/ai-genie.webp
+  alt: "AI as an evil genie - be careful what you wish for"
+faq:
+  - question: "Why is AI communication compared to an evil genie?"
+    answer: "AI communication is like an evil genie because if you're not precise in your requests, you might get exactly what you asked for but not what you actually needed. The AI fills in gaps with its own logic, leading to unexpected results."
+  - question: "What are the common SEO issues in multilingual Drupal sites?"
+    answer: "Common issues include unsecured URLs (http instead of https), incorrect domains pointing to host providers, wrong language codes (like using /mx/ for Bolivia instead of /bo/), and inconsistent URL structures across markets."
+  - question: "How can AI help with sitemap validation?"
+    answer: "AI can automate the process of analyzing sitemaps across multiple markets by checking for protocol inconsistencies, verifying domain accuracy, ensuring correct language codes, and detecting errors in alias generation - tasks that would take hours manually."
+  - question: "What's the key to effective AI communication?"
+    answer: "The key is precision in defining your needs. The better you define your requirements, the better the result. Always be specific, add conditions, and account for edge cases to avoid AI filling gaps with its own logic."
+  - question: "How long did it take to create the AI sitemap validation solution?"
+    answer: "It took less than 30 minutes to refine the AI prompts and create a solution that could analyze sitemaps across multiple markets in minutes, compared to hours of manual work."
+  - question: "What's the best way to give context to AI tools like ChatGPT?"
+    answer: "Using voice recording (dictation) in ChatGPT is highly effective because it allows you to quickly provide a lot of context to the AI, making your requests more natural and comprehensive."
 ---
-![AI Evil Genie](/assets/images/ai-genie.jpg)
+![AI Evil Genie](/assets/images/ai-genie.webp)
 
 Managing SEO for a multimarket site is never easy, especially when dealing with over 30 markets, each with its own peculiarities. Recently, my team faced a sitemap issue in our Drupal setup that led to several problems, particularly in multilingual markets:
 

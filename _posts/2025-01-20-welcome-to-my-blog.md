@@ -1,13 +1,31 @@
 ---
-title: "Welcome to My Blog"
+title: "Welcome to My Blog - Solutions Architect Insights"
 date: 2025-01-20
-categories: [Introduction]
+last_modified_at: 2025-07-28
+categories: [Introduction, Technology]
 tags: 
   - blog
   - technology
   - Drupal
   - AI
-excerpt: "Welcome to my personal blog where I will share insights on technology, Drupal, AI, and more."
+  - Solutions Architect
+excerpt: "Welcome to my personal blog where I will share insights on technology, Drupal, AI, and more. Join me as I explore the latest trends in web development and digital strategy."
+header:
+  teaser: /assets/images/bio-photo.webp
+  alt: "Juan de la Oliva - Solutions Architect"
+faq:
+  - question: "What is a Solutions Architect and what does Juan specialize in?"
+    answer: "A Solutions Architect designs and oversees the implementation of technology solutions. Juan specializes in Drupal technology, web development, and digital strategy, helping businesses achieve their digital goals."
+  - question: "What topics will be covered in this blog?"
+    answer: "The blog will cover Drupal Development tips and best practices, Artificial Intelligence and its impact on web development, Technology Trends and innovations, and Digital Strategy to bridge technology and business goals."
+  - question: "What type of content can readers expect?"
+    answer: "Readers can expect a mix of technical deep dives, how-to guides, and personal insights into the evolving world of technology, suitable for developers, architects, and tech enthusiasts."
+  - question: "What is Juan's background and experience?"
+    answer: "Juan is a Solutions Architect based in Frankfurt, originally from Seville, with several years of experience in the tech industry, including collaborations with companies like Nestlé."
+  - question: "How can readers connect with Juan?"
+    answer: "Readers can connect with Juan on LinkedIn (https://www.linkedin.com/in/juan-de-la-oliva-aguilar-6324961a2/) or GitHub (https://github.com/juandelaoliva) for professional networking and collaboration."
+  - question: "What makes this blog unique for technology professionals?"
+    answer: "This blog offers practical insights from a Solutions Architect's perspective, combining technical expertise with business strategy, focusing on real-world applications of technology in enterprise environments."
 ---
 
 

@@ -3,7 +3,6 @@ title: "Juan de la Oliva | Solutions Architect Blog"
 email: "juandelaoliva1@gmail.com"
 description: >-
   Insights on technology, Drupal, AI, and more from Juan de la Oliva, a professional Solutions Architect based in Frankfurt.
-twitter_username: username
 github_username: juandelaoliva
 minimal_mistakes_skin: default
 search: true
@@ -17,14 +16,18 @@ sitemap:
   changefreq: weekly
   priority: 1.0
   lastmod: auto
+  exclude:
+    - "/404.html"
+    - "/feed.xml"
+    - "/sitemap.xml"
 
-# Social sharing metadata
-twitter:
-  card: "summary_large_image"
-  description: >-
-    Exploring topics in technology, Drupal, AI, and more with Juan de la Oliva, an experienced Solutions Architect.
-  image: "/images/juandelaoliva-juan_de_la_oliva.jpg"
-  creator: "@juandelaoliva"
+# Enhanced SEO Settings
+seo:
+  title: "Juan de la Oliva | Solutions Architect Blog"
+  description: "Insights on technology, Drupal, AI, and more from Juan de la Oliva, a professional Solutions Architect based in Frankfurt."
+  keywords: "Drupal, AI, Solutions Architect, Technology, Web Development, Digital Strategy, Frankfurt"
+  author: "Juan de la Oliva"
+  image: "/assets/images/bio-photo.webp"
 
 # Build settings
 markdown: kramdown
@@ -53,6 +56,7 @@ author:
   name   : "Juan de la Oliva"
   avatar : "https://juandelaoliva.com/images/juandelaoliva-juan_de_la_oliva.webp"
   bio    : "Experienced Solutions Architect specializing in Drupal, AI, and web development."
+  location: "Frankfurt, Germany"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -92,6 +96,7 @@ defaults:
       comments: true
       share: true
       related: true
+      last_modified_at: true
   - scope:
       path: "_pages"
       type: pages

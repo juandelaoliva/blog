@@ -1,13 +1,28 @@
 ---
-title: "ChatGPT Isn’t Perfect (But It Can Code)"
+title: "ChatGPT Isn't Perfect (But It Can Code) - AI Automation Tips"
 date: 2025-02-06
-categories: [AI]
-tags: [AI, automation, JavaScript, CodePen, productivity]
-excerpt: "Instead of asking ChatGPT to do repetitive tasks, let it write code for you. A simple trick that saves time and frustration."
+last_modified_at: 2025-07-28
+categories: [AI, Technology, Productivity]
+tags: [AI, automation, JavaScript, CodePen, productivity, ChatGPT, coding, web development, tips]
+excerpt: "Instead of asking ChatGPT to do repetitive tasks, let it write code for you. A simple trick that saves time and frustration while improving your workflow."
 header: 
-  teaser: /assets/images/chatgpt-code.jpg
+  teaser: /assets/images/chatgpt-code.webp
+  alt: "ChatGPT coding automation - let AI write code for you"
+faq:
+  - question: "Why does ChatGPT struggle with large repetitive tasks?"
+    answer: "ChatGPT can become inconsistent when generating large amounts of data manually. It may produce fewer items than requested or behave unpredictably when asked to generate hundreds of similar items in one request."
+  - question: "What's the better approach when working with ChatGPT for bulk tasks?"
+    answer: "Instead of asking ChatGPT to generate data manually, ask it to write code that automates the task. This leverages AI's strength in coding rather than repetitive data generation."
+  - question: "Why is JavaScript recommended for ChatGPT-generated automation?"
+    answer: "JavaScript is recommended because it can run directly in a browser or CodePen without requiring any installation or setup, making it accessible even for users who don't know the language."
+  - question: "What should you do if ChatGPT gives you code in a language you don't know?"
+    answer: "Simply ask ChatGPT to rewrite the code in JavaScript. It's one of the easiest languages to run and doesn't require any setup or installation."
+  - question: "How can you run ChatGPT-generated code without technical knowledge?"
+    answer: "Use platforms like CodePen where you can paste HTML and JavaScript code and run it immediately in the browser, or ask ChatGPT to create an HTML + JavaScript solution that works directly in any web browser."
+  - question: "What's the key lesson about using AI for productivity?"
+    answer: "The key lesson is to use AI for what it's best at - writing code and automation - rather than for manual repetitive tasks. Always ask yourself 'Can I automate this instead?' when facing bulk tasks."
 ---
-![ChatGPT Code Trick](/assets/images/chatgpt-code.jpg)
+![ChatGPT Code Trick](/assets/images/chatgpt-code.webp)
 
 ## The Problem: When AI Starts Acting Weird  
 

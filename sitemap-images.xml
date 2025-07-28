@@ -1,0 +1,29 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  {% for post in site.posts %}
+    {% if post.header.teaser %}
+    <url>
+      <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
+      <image:image>
+        <image:loc>{{ site.url }}{{ site.baseurl }}{{ post.header.teaser }}</image:loc>
+        <image:title>{{ post.title | xml_escape }}</image:title>
+        <image:caption>{{ post.excerpt | strip_html | truncate: 200 | xml_escape }}</image:caption>
+      </image:image>
+    </url>
+    {% endif %}
+  {% endfor %}
+  
+  <!-- Static images -->
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/</loc>
+    <image:image>
+      <image:loc>{{ site.url }}{{ site.baseurl }}/assets/images/bio-photo.webp</image:loc>
+      <image:title>Juan de la Oliva - Solutions Architect</image:title>
+      <image:caption>Juan de la Oliva, Solutions Architect specializing in Drupal, AI, and web development</image:caption>
+    </image:image>
+  </url>
+</urlset> 
