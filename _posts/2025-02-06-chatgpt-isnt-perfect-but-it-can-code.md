@@ -1,8 +1,8 @@
 ---
 title: "ChatGPT Isn't Perfect (But It Can Code) - AI Automation Tips"
-date: 2025-02-06
-last_modified_at: 2025-07-28
-categories: [AI, Technology, Productivity]
+date: 2024-02-06
+last_modified_at: 2024-07-28
+categories: [AI]
 tags: [AI, automation, JavaScript, CodePen, productivity, ChatGPT, coding, web development, tips]
 excerpt: "Instead of asking ChatGPT to do repetitive tasks, let it write code for you. A simple trick that saves time and frustration while improving your workflow."
 header: 

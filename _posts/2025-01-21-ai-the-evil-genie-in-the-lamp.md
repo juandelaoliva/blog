@@ -1,8 +1,8 @@
 ---
 title: "Is AI the Evil Genie in the Lamp? - Lessons in AI Communication"
-date: 2025-01-21
-last_modified_at: 2025-01-21
-categories: [AI, Technology, Drupal]
+date: 2024-01-21
+last_modified_at: 2024-01-21
+categories: [AI]
 tags: [AI, automation, SEO, Drupal, XML, sitemap, ChatGPT, productivity, web development]
 excerpt: "Using AI feels like asking an evil genie for a wish—if you're not precise, you might not get what you actually need. Learn how to communicate effectively with AI for better results."
 header: 

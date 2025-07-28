@@ -1,8 +1,8 @@
 ---
 title: "Welcome to My Blog - Solutions Architect Insights"
-date: 2025-01-20
-last_modified_at: 2025-07-28
-categories: [Introduction, Technology]
+date: 2024-01-20
+last_modified_at: 2024-07-28
+categories: [Technology]
 tags: 
   - blog
   - technology
